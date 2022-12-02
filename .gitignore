@@ -128,3 +128,25 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .vscode/settings.json
+
+# Clojure
+**/.clj-kondo/.cache/
+.clj-kondo/**/*
+**/.cpcache/
+**/.nrepl-port
+**/target
+**/.calva
+.vscode*
+.lsp/.cache*
+projects/**/build.clj
+docs/diagrams
+
+**/.DS_Store
+.dir-locals.el
+
+**/.shadow-cljs
+**/node_modules
+**/package-lock.json
+
+**/user-config.edn
+**/.DS_Store
